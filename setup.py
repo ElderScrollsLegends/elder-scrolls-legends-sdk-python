@@ -32,7 +32,7 @@ download_url="{}/tarball/{}".format(url, __version__)
 setup(
     name=__pypi_packagename__,
     version=__version__,
-    description='Elder: Scrolls Legends SDK for https://elderscrollslegends.io',
+    description='Elder Scrolls: Legends SDK for https://elderscrollslegends.io',
     long_description='''
 Elder Scrolls: Legends SDK is a python wrapper around the Elder Scrolls: Legends API located at https://elderscrollslegends.io
 ''',
