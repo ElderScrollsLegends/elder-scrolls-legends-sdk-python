@@ -1,5 +1,9 @@
 # Elder Scrolls: Legends SDK
 
+[![Build Status](https://travis-ci.org/ElderScrollsLegends/elder-scrolls-legends-sdk-python.svg?branch=master)](https://travis-ci.org/ElderScrollsLegends/elder-scrolls-legends-sdk-python)
+[![Maintainability](https://api.codeclimate.com/v1/badges/ef27076576eb0104d265/maintainability)](https://codeclimate.com/github/ElderScrollsLegends/elder-scrolls-legends-sdk-python/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/ef27076576eb0104d265/test_coverage)](https://codeclimate.com/github/ElderScrollsLegends/elder-scrolls-legends-sdk-python/test_coverage)
+
 This is the Elder Scrolls: Legends SDK Python implementation. It is a wrapper around the Elder Scrolls: Legends API of [https://elderscrollslegends.io](https://elderscrollslegends.io/).
 
 ## Requirements

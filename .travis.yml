@@ -3,20 +3,21 @@
 
 # Licensed under the MIT license:
 # http://www.opensource.org/licenses/MIT-license
-# Copyright (c) 2016, Andrew Backes <backes.andrew@gmail.com>
+# Copyright (c) 2018, Andrew Backes <backes.andrew@gmail.com>
 
+env:
+  global:
+    - CC_TEST_REPORTER_ID=edf3a98d1595fac700d2674f20a66251fd43a7c73b49e232e63530c16b9e3b37
 language: python
-
 python:
-    - "3.4"
-
+    - "3.6"
 install:
-    # install python requirements
     - make setup
-
+before_script:
+  - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
+  - chmod +x ./cc-test-reporter
+  - ./cc-test-reporter before-build
 script:
-    # run tests
-    - make test
-
-after_success:
-    - coveralls
+  - make test
+after_script:
+  - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT
