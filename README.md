@@ -1,5 +1,6 @@
 # Elder Scrolls: Legends SDK
 
+[![esl-developers on discord](https://img.shields.io/badge/discord-esl--developers-738bd7.svg)](https://discord.gg/97vDaJx)
 [![Build Status](https://travis-ci.org/ElderScrollsLegends/elder-scrolls-legends-sdk-python.svg?branch=master)](https://travis-ci.org/ElderScrollsLegends/elder-scrolls-legends-sdk-python)
 [![Requirements Status](https://requires.io/github/ElderScrollsLegends/elder-scrolls-legends-sdk-python/requirements.svg?branch=master)](https://requires.io/github/ElderScrollsLegends/elder-scrolls-legends-sdk-python/requirements/?branch=master)
 [![Maintainability](https://api.codeclimate.com/v1/badges/ef27076576eb0104d265/maintainability)](https://codeclimate.com/github/ElderScrollsLegends/elder-scrolls-legends-sdk-python/maintainability)
