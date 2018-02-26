@@ -21,7 +21,7 @@ class Card(object):
         self.set = Object(id=response_dict.get('set')['id'], name=response_dict.get('set')['name'])
         self.rarity = response_dict.get('rarity')
         self.type = response_dict.get('type')
-        self.subtype = response_dict.get('subtype')
+        self.subtypes = response_dict.get('subtypes')
         self.cost = response_dict.get('cost')
         self.power = response_dict.get('power')
         self.health = response_dict.get('health')

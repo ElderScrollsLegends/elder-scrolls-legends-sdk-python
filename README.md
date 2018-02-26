@@ -46,7 +46,7 @@ Import
     set
     rarity
     type
-    subtype
+    subtypes
     cost
     power
     health

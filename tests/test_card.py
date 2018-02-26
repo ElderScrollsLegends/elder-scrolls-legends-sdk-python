@@ -27,7 +27,7 @@ class TestCard(unittest.TestCase):
             self.assertEqual('hos', card.set.id)
             self.assertEqual('Legendary', card.rarity)
             self.assertEqual('Creature', card.type)
-            self.assertEqual('Dragon', card.subtype)
+            self.assertEqual(['Dragon'], card.subtypes)
             self.assertEqual(20, card.cost)
             self.assertEqual(12, card.power)
             self.assertEqual(12, card.health)
