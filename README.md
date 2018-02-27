@@ -56,6 +56,7 @@ Import
     attributes
     keywords
     unique
+    collectible
     image_url
 
 #### Set

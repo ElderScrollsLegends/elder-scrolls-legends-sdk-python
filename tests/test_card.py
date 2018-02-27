@@ -25,6 +25,7 @@ class TestCard(unittest.TestCase):
             self.assertEqual('1fd81123ab3eca0b29c4c19757045db9757b4f1a', card.id)
             self.assertEqual('Heroes of Skyrim', card.set.name)
             self.assertEqual('hos', card.set.id)
+            self.assertEqual(True, card.collectible)
             self.assertEqual('Legendary', card.rarity)
             self.assertEqual('Creature', card.type)
             self.assertEqual(['Dragon'], card.subtypes)
