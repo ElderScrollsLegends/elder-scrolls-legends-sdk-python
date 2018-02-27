@@ -19,7 +19,7 @@ class TestSet(unittest.TestCase):
             
             self.assertEqual('cs', set.id)
             self.assertEqual('Core Set', set.name)
-            self.assertEqual(412, set.total_cards)
+            self.assertEqual(444, set.total_cards)
             self.assertEqual('2016-04-01', set.release_date)
             
     def test_where_filters_on_name(self):
