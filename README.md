@@ -76,7 +76,7 @@ Import
 
     cards = Card.where(type='creature', rarity='legendary')
     
-#### Find all cards (will take awhile)
+#### Find all cards (will take awhile - automatically pages through all cards)
 
     cards = Card.all()
     
