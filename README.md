@@ -125,3 +125,7 @@ Import
 ### Running Tests
 
     python -m unittest discover -s tests/
+
+If you are on Linux (or have `make` available) you can do the following:
+
+    make test
